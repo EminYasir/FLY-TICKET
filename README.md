@@ -1,4 +1,5 @@
 frontend için -->> npm run dev 
+
 backend için --->  npm start 
 
 proje mantık olarak istediğiniz gibi çalışıyor.
