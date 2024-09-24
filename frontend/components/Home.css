@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+.flight-search input, .flight-search select {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.flight-search button {
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

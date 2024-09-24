@@ -1,0 +1,10 @@
+.custom-button {
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+  }
+  
+  .custom-button:hover {
+    background-color: #483d8b;  /* Hover sırasında arka plan rengi */
+    color: #fff;  /* Hover sırasında yazı rengi */
+  }
