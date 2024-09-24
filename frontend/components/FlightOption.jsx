@@ -5,10 +5,11 @@ import moment from "moment"; // moment'i içe aktarın
 
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const FlightOption = ({ fly }) => {
   
-
+  const navigate = useNavigate();
   const scheduleTime = moment(fly.scheduleTime, "HH:mm:ss");
   const lastUpdatedAt = moment(fly.lastUpdatedAt, "HH:mm:ss");
 
@@ -77,6 +78,8 @@ const FlightOption = ({ fly }) => {
       console.error("Uçuş kaydedilirken hata oluştu:", error);
       // Hata mesajını kullanıcıya gösterebilirsiniz
     }
+
+    navigate('/flights')
   };
 
   return (
