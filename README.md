@@ -3,7 +3,7 @@ frontend için -->> npm run dev
 backend için --->  npm start 
 
 proje mantık olarak istediğiniz gibi çalışıyor.
-sadece api yi kullanırken çok sorun yaşadım. kişi Schiphol dan gidicekse varış yeri istanbul eğer Schiphol a gidecekse uçağın kalkış yeri istanbul olarak ayarladım.
+sadece api yi kullanırken bir sorun yaşadım. kişi Schiphol dan gidicekse varış yeri istanbul eğer Schiphol a gidecekse uçağın kalkış yeri istanbul olarak ayarladım.
 kısaca gidilecek yer kısmını apiye seçilen yer yerine elimle girdim. 
 
 
